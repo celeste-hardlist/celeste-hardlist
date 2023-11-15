@@ -54,9 +54,9 @@ const Sidebar = () => {
             <FaIcons.FaBars onClick={showSidebar} />
           </NavIcon>
           <h1
-            style={{ textAlign: "center", marginLeft: "200px", color: "green" }}
+            style={{ textAlign: "center", marginLeft: "200px", color: "#fcfefe"}}
           >
-            GeeksforGeeks
+            Celeste Hard List
           </h1>
         </Nav>
         <SidebarNav sidebar={sidebar}>

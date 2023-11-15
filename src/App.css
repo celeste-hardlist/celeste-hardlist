@@ -1,15 +1,21 @@
+@font-face {
+  font-family: 'Renogare';
+  src: local('Renogare'),
+      url("./fonts/Renogare-Regular.otf") format("woff");
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-.home,
-.services,
-.reports,
-.contact,
-.events,
-.support {
+
+.home {
   display: flex;
-  margin-left: 260px;
+  margin-left: 30px;
+  margin-top: 30px;
   font-size: 2rem;
+
+  color: 'black';
+  font-family: Renogare, 'Helvetica', sans-serif;
 }

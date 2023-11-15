@@ -6,60 +6,12 @@ import * as RiIcons from "react-icons/ri";
 
 export const SidebarData = [
   {
-    title: "About Us",
-    path: "/about-us",
+    title: "Home",
+    path: "/home",
     icon: <AiIcons.AiFillHome />,
-    iconClosed: <RiIcons.RiArrowDownSFill />,
-    iconOpened: <RiIcons.RiArrowUpSFill />,
-
-    subNav: [
-      {
-        title: "Our Aim",
-        path: "/about-us/aim",
-        icon: <IoIcons.IoIosPaper />,
-      },
-      {
-        title: "Our Vision",
-        path: "/about-us/vision",
-        icon: <IoIcons.IoIosPaper />,
-      },
-    ],
   },
   {
-    title: "Services",
-    path: "/services",
-    icon: <IoIcons.IoIosPaper />,
-    iconClosed: <RiIcons.RiArrowDownSFill />,
-    iconOpened: <RiIcons.RiArrowUpSFill />,
-
-    subNav: [
-      {
-        title: "Service 1",
-        path: "/services/services1",
-        icon: <IoIcons.IoIosPaper />,
-        cName: "sub-nav",
-      },
-      {
-        title: "Service 2",
-        path: "/services/services2",
-        icon: <IoIcons.IoIosPaper />,
-        cName: "sub-nav",
-      },
-      {
-        title: "Service 3",
-        path: "/services/services3",
-        icon: <IoIcons.IoIosPaper />,
-      },
-    ],
-  },
-  {
-    title: "Contact",
-    path: "/contact",
-    icon: <FaIcons.FaPhone />,
-  },
-  {
-    title: "Events",
-    path: "/events",
+    title: "Levels",
     icon: <FaIcons.FaEnvelopeOpenText />,
 
     iconClosed: <RiIcons.RiArrowDownSFill />,
@@ -67,20 +19,37 @@ export const SidebarData = [
 
     subNav: [
       {
-        title: "Event 1",
-        path: "/events/events1",
+        title: "3 Star",
+        path: "/levels/three-star",
         icon: <IoIcons.IoIosPaper />,
       },
       {
-        title: "Event 2",
-        path: "/events/events2",
+        title: "2 Star",
+        path: "/levels/two-star",
+        icon: <IoIcons.IoIosPaper />,
+      },
+      {
+        title: "1 Star",
+        path: "/levels/one-star",
         icon: <IoIcons.IoIosPaper />,
       },
     ],
   },
+  /*
   {
-    title: "Support",
-    path: "/support",
-    icon: <IoIcons.IoMdHelpCircle />,
+    title: "Search",
+    path: "/search",
+    icon: <FaIcons.FaPhone />,
+  },
+  */
+  {
+    title: "Update Log",
+    path: "/updatelog",
+    icon: <FaIcons.FaPhone />,
+  },
+  {
+    title: "FAQ",
+    path: "/faq",
+    icon: <FaIcons.FaPhone />,
   },
 ];
