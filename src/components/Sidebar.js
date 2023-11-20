@@ -54,7 +54,12 @@ const Sidebar = () => {
             <FaIcons.FaBars onClick={showSidebar} />
           </NavIcon>
           <h1
-            style={{ textAlign: "center", marginLeft: "200px", color: "#fcfefe"}}
+            style={{
+              textAlign: "center",
+              marginLeft: sidebar ? "200px" : "10px",
+              transition: "350ms",
+              color: "#fcfefe",
+            }}
           >
             Celeste Hard List
           </h1>
