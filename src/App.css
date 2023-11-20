@@ -1,7 +1,6 @@
 @font-face {
-  font-family: 'Renogare';
-  src: local('Renogare'),
-      url("./fonts/Renogare-Regular.otf") format("woff");
+  font-family: "Renogare";
+  src: local("Renogare"), url("./fonts/Renogare-Regular.otf") format("woff");
 }
 
 * {
@@ -16,6 +15,13 @@
   margin-top: 30px;
   font-size: 2rem;
 
-  color: 'black';
-  font-family: Renogare, 'Helvetica', sans-serif;
+  color: "black";
+  font-family: Renogare, "Helvetica", sans-serif;
+}
+.headline {
+  text-align: center;
+  font-size: 2rem;
+
+  color: "black";
+  font-family: Renogare, "Helvetica", sans-serif;
 }

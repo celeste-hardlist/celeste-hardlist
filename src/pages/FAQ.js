@@ -2,8 +2,8 @@ import React from "react";
 
 export const FAQ = () => {
   return (
-    <div className="home">
-      <h1>GeeksforGeeks FAQ</h1>
+    <div className="headline">
+      <h1>Celeste Hardlist FAQ</h1>
     </div>
   );
 };
