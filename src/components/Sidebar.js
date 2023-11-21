@@ -16,6 +16,7 @@ const Nav = styled.div`
 `;
 
 const NavIcon = styled(Link)`
+  background: #15171c;
   margin-left: 2rem;
   font-size: 2rem;
   height: 80px;
@@ -39,6 +40,7 @@ const SidebarNav = styled.nav`
 
 const SidebarWrap = styled.div`
   width: 100%;
+  background: #15171c;
 `;
 
 const Sidebar = () => {
@@ -59,6 +61,7 @@ const Sidebar = () => {
               marginLeft: sidebar ? "200px" : "10px",
               transition: "350ms",
               color: "#fcfefe",
+              backgroundColor: "#15171c",
             }}
           >
             Celeste Hard List

@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 const SidebarLink = styled(Link)`
+  background: #15171c;
   display: flex;
   color: #e1e9fc;
   justify-content: space-between;
@@ -26,6 +27,7 @@ const SidebarLabel = styled.span`
 
 const DropdownLink = styled(Link)`
   background: #252831;
+
   height: 60px;
   padding-left: 3rem;
   display: flex;
