@@ -21,7 +21,8 @@
 .headline {
   text-align: center;
   font-size: 2rem;
-
-  color: "black";
+  background-image: url(background/celestebackground.png);
+  height: 100vh;
+  color: "";
   font-family: Renogare, "Helvetica", sans-serif;
 }
