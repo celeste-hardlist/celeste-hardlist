@@ -3,21 +3,28 @@ import React from "react";
 
 const Page = React.forwardRef((props, ref) => {
     return (
-        <div className="demoPage" ref={ref}>
+        <div className={"demoPage"} 
+            ref={ref} 
+            data-density={"hard"}>
             <h1>Page Header</h1>
             <p>{props.children}</p>
-            <p>Page number: {props.number}</p>
         </div>
     );
 });
 
 function MyBook(props) {
     return (
-        <HTMLFlipBook width={300} height={500} flippingTime={10}>
-            <Page number="1">Page text</Page>
-            <Page number="2">Page text</Page>
-            <Page number="3">Page text</Page>
-            <Page number="4">Page text</Page>
+        <HTMLFlipBook width={600} 
+                    height={600} 
+                    flippingTime={400} 
+                    showCover={true}
+                    maxShadowOpacity={0}>
+            <Page>Page text</Page>
+            <Page>Page text</Page>
+            <Page>Page text</Page>
+            <Page>Page text</Page>
+            <Page>Page text</Page>
+            <Page>Page text</Page>
         </HTMLFlipBook>
     );
 }
