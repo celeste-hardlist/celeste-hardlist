@@ -9,7 +9,7 @@ import { IconContext } from "react-icons/lib";
 
 const Nav = styled.div`
   background: #15171c;
-  height: 80px;
+  height: 9vh;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -19,7 +19,7 @@ const NavIcon = styled(Link)`
   background: #15171c;
   margin-left: 2rem;
   font-size: 2rem;
-  height: 80px;
+  height: 9vh;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -58,7 +58,7 @@ const Sidebar = () => {
           <h1
             style={{
               textAlign: "center",
-              marginLeft: sidebar ? "200px" : "10px",
+              marginLeft: sidebar ? "200px" : "20px",
               transition: "350ms",
               color: "#fcfefe",
               backgroundColor: "#15171c",
