@@ -1,9 +1,13 @@
 import React from "react";
+import Book from "../components/Book.js";
 
 export const UpdateLog = () => {
   return (
-    <div className="commonPage">
-      <h1>GeeksforGeeks Update Log</h1>
+    <div className="faq">
+      <h1>Hardlist Monthly Update Log</h1>
+      <div className="faqBook">
+        <Book />
+      </div>
     </div>
   );
 };

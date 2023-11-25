@@ -38,10 +38,27 @@
   transform: rotate(-1deg);
 }
 
+.coverPage {
+  background-image: url(../public/journal-cover.jpg);
+
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.backPage {
+  background-image: url(../public/journal-back.jpg);
+
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+
 .bookPage {
-  background-image: url(https://images.unsplash.com/photo-1603513492128-ba7bc9b3e143?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8cGFwZXIlMjB0ZXh0dXJlfGVufDB8fDB8&ixlib=rb-1.2.1&w=1000&q=80);
+  background-image: url(../public/page.jpg);
   border: 1px solid rgb(198, 194, 194);
-  /* border-radius: 0.5rem; */
+
   box-sizing: border-box;
   box-shadow: 0 1.5em 3em -1em rgb(70, 69, 69);
+
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
 }
