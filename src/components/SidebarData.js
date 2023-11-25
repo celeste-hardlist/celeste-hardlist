@@ -20,17 +20,17 @@ export const SidebarData = [
     subNav: [
       {
         title: "3 Star",
-        path: "/levels/three-star",
+        path: "/three-star",
         icon: <RiIcons.RiStarFill />,
       },
       {
         title: "2 Star",
-        path: "/levels/two-star",
+        path: "/two-star",
         icon: <RiIcons.RiStarHalfFill />,
       },
       {
         title: "1 Star",
-        path: "/levels/one-star",
+        path: "/one-star",
         icon: <RiIcons.RiStarLine />,
       },
     ],

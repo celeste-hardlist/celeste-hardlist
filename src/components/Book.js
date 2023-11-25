@@ -2,15 +2,7 @@ import HTMLFlipBook from "react-pageflip";
 import React from "react";
 
 import CoverPage from "./CoverPage";
-
-const BookPage = React.forwardRef((props, ref) => {
-  return (
-    <div className={"bookPage"} ref={ref} data-density={"hard"}>
-      <h2>Page Header</h2>
-      <p>{props.children}</p>
-    </div>
-  );
-});
+import BookPage from "./BookPage";
 
 const BackPage = React.forwardRef((props, ref) => {
   return <div className={"backPage"} ref={ref} data-density={"hard"}></div>;
@@ -26,7 +18,7 @@ function MyBook(props) {
       maxShadowOpacity={0}
     >
       <CoverPage text={props.title}/>
-      <BookPage>Page text</BookPage>
+      <BookPage text={"test"} children={"Test"}></BookPage>
       <BookPage>Page text</BookPage>
       <BookPage>Page text</BookPage>
       <BookPage>Page text</BookPage>

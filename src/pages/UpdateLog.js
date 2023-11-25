@@ -3,9 +3,9 @@ import Book from "../components/Book.js";
 
 export const UpdateLog = () => {
   return (
-    <div className="faq">
+    <div className="commonPage">
       <h1>Hardlist Monthly Update Log</h1>
-      <div className="faqBook">
+      <div className="book">
         <Book />
       </div>
     </div>

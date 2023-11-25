@@ -3,9 +3,9 @@ import Book from "../components/Book.js";
 
 export const FAQ = () => {
   return (
-    <div className="faq" margin="0" height="100%" overflow="hidden">
+    <div className="commonPage" margin="0" height="100%" overflow="hidden">
       <h1>Hardlist FAQ</h1>
-      <div className="faqBook">
+      <div className="book">
         <Book title="FAQ" />
       </div>
     </div>

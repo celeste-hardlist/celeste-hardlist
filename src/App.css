@@ -12,24 +12,30 @@
 }
 
 .commonPage {
-  display: flex;
-  font-size: 2rem;
-
-  background-color: #89cff0;
-  height: 91vh;
-  width: 100vw;
-}
-
-.faq {
   text-align: center;
   font-size: 2rem;
 
   background-color: #89cff0;
-  height: 91vh;
-  width: 100vw;
+  min-height: 100vh;
 }
 
-.faqBook {
+.levelBox {
+  width: 500px;
+  height: 400px;
+  background-color: #89bef0;
+
+  border: 3px solid black;
+  border-radius: 5px;
+  margin: 20px;
+  padding: 0px;
+}
+
+.levelBox:hover {
+  background-color: #89a8f0;
+  text-decoration: underline;
+}
+
+.book {
   align-items: center;
   display: flex;
   justify-content: center;
@@ -41,15 +47,19 @@
 .coverPage {
   background-image: url(../public/journal-cover.jpg);
 
+  /*
   border-top-right-radius: 1rem;
   border-bottom-right-radius: 1rem;
+  */
 }
 
 .backPage {
   background-image: url(../public/journal-back.jpg);
 
+  /*
   border-top-left-radius: 1rem;
   border-bottom-left-radius: 1rem;
+  */
 }
 
 .bookPage {
@@ -58,7 +68,8 @@
 
   box-sizing: border-box;
   box-shadow: 0 1.5em 3em -1em rgb(70, 69, 69);
-
+  /*
   border-top-right-radius: 1rem;
   border-bottom-right-radius: 1rem;
+  */
 }
