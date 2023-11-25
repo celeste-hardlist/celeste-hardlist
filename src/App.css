@@ -7,31 +7,26 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-}
 
-.home {
-  display: flex;
-  margin-left: 30px;
-  margin-top: 30px;
-  font-size: 2rem;
-
-  color: "black";
   font-family: Renogare, "Helvetica", sans-serif;
 }
 
-.headline {
-  text-align: center;
+.commonPage {
+  display: flex;
   font-size: 2rem;
-  /*
-  background-image: url(../public/background.png);
-  */
 
-  background-color:#32C8E6;
+  background-color: #89cff0;
   height: 91vh;
   width: 100vw;
+}
 
-  color: "";
-  font-family: Renogare, "Helvetica", sans-serif;
+.faq {
+  text-align: center;
+  font-size: 2rem;
+
+  background-color: #89cff0;
+  height: 91vh;
+  width: 100vw;
 }
 
 .faqBook {
@@ -43,10 +38,10 @@
   transform: rotate(-1deg);
 }
 
-.demoPage {
+.bookPage {
   background-image: url(https://images.unsplash.com/photo-1603513492128-ba7bc9b3e143?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8cGFwZXIlMjB0ZXh0dXJlfGVufDB8fDB8&ixlib=rb-1.2.1&w=1000&q=80);
   border: 1px solid rgb(198, 194, 194);
-	/* border-radius: 0.5rem; */
-	box-sizing: border-box;
-	box-shadow: 0 1.5em 3em -1em rgb(70, 69, 69);
+  /* border-radius: 0.5rem; */
+  box-sizing: border-box;
+  box-shadow: 0 1.5em 3em -1em rgb(70, 69, 69);
 }

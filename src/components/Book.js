@@ -3,10 +3,10 @@ import React from "react";
 
 const Page = React.forwardRef((props, ref) => {
     return (
-        <div className={"demoPage"} 
+        <div className={"bookPage"} 
             ref={ref} 
             data-density={"hard"}>
-            <h1>Page Header</h1>
+            <h2>Page Header</h2>
             <p>{props.children}</p>
         </div>
     );

@@ -1,18 +1,18 @@
 import React from "react";
 import * as FaIcons from "react-icons/fa";
 import * as AiIcons from "react-icons/ai";
-import * as IoIcons from "react-icons/io";
 import * as RiIcons from "react-icons/ri";
+import * as PiIcons from "react-icons/pi";
 
 export const SidebarData = [
   {
     title: "Home",
-    path: "/home",
+    path: "",
     icon: <AiIcons.AiFillHome />,
   },
   {
     title: "Levels",
-    icon: <FaIcons.FaEnvelopeOpenText />,
+    icon: <FaIcons.FaList />,
 
     iconClosed: <RiIcons.RiArrowDownSFill />,
     iconOpened: <RiIcons.RiArrowUpSFill />,
@@ -21,35 +21,28 @@ export const SidebarData = [
       {
         title: "3 Star",
         path: "/levels/three-star",
-        icon: <IoIcons.IoIosPaper />,
+        icon: <RiIcons.RiStarFill />,
       },
       {
         title: "2 Star",
         path: "/levels/two-star",
-        icon: <IoIcons.IoIosPaper />,
+        icon: <RiIcons.RiStarHalfFill />,
       },
       {
         title: "1 Star",
         path: "/levels/one-star",
-        icon: <IoIcons.IoIosPaper />,
+        icon: <RiIcons.RiStarLine />,
       },
     ],
   },
-  /*
-  {
-    title: "Search",
-    path: "/search",
-    icon: <FaIcons.FaPhone />,
-  },
-  */
   {
     title: "Update Log",
     path: "/updatelog",
-    icon: <FaIcons.FaPhone />,
+    icon: <PiIcons.PiReadCvLogoFill />,
   },
   {
     title: "FAQ",
     path: "/faq",
-    icon: <FaIcons.FaPhone />,
+    icon: <FaIcons.FaQuestion />,
   },
 ];
