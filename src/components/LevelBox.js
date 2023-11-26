@@ -1,14 +1,7 @@
 import React from "react";
-import { useState } from "react";
 
 function LevelBox(props, ref) {
-  const [levelIsOpen, setLevelIsOpen] = useState(false);
   const tooLong = props.tooLong;
-
-  function openLevelHandler() {
-    setLevelIsOpen(true);
-  }
-
   return (
     <div className="levelBox" ref={ref}>
       {props.image}

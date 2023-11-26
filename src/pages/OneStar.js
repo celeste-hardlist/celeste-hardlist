@@ -1,9 +1,185 @@
 import React from "react";
+import LevelBox from "../components/LevelBox.js";
 
 export const OneStar = () => {
   return (
     <div className="commonPage">
-      <h1 style={{textAlign: "center"}}>One Star</h1>
+      <h1 style={{ textAlign: "center" }}>One Star</h1>
+      <h3 style={{ textAlign: "center" }}>
+        At least as hard as Darkmoon Ruins, up to Green GM+1. Not ordered by
+        difficulty.
+      </h3>
+      <div
+        style={{
+          alignContent: "center",
+          justifyContent: "center",
+          display: "flex",
+          flexDirection: "row",
+          flexBasis: "100%",
+          flexWrap: "wrap",
+        }}
+      >
+        <LevelBox
+          title="5b_Garbage_Version"
+          author="Monika"
+          image={
+            <img
+              src={require("../level-images/dashless-plus.jpg")}
+              alt="5BGV"
+            />
+          }
+        />
+        <LevelBox
+          title="5b_Garbage_Version"
+          author="Monika"
+          image={
+            <img
+              src={require("../level-images/dashless-plus.jpg")}
+              alt="5BGV"
+            />
+          }
+        />
+        <LevelBox
+          title="5b_Garbage_Version"
+          author="Monika"
+          image={
+            <img
+              src={require("../level-images/dashless-plus.jpg")}
+              alt="5BGV"
+            />
+          }
+        />
+        <LevelBox
+          title="5b_Garbage_Version"
+          author="Monika"
+          image={
+            <img
+              src={require("../level-images/dashless-plus.jpg")}
+              alt="5BGV"
+            />
+          }
+        />
+        <LevelBox
+          title="5b_Garbage_Version"
+          author="Monika"
+          image={
+            <img
+              src={require("../level-images/dashless-plus.jpg")}
+              alt="5BGV"
+            />
+          }
+        />
+        <LevelBox
+          title="5b_Garbage_Version"
+          author="Monika"
+          image={
+            <img
+              src={require("../level-images/dashless-plus.jpg")}
+              alt="5BGV"
+            />
+          }
+        />
+        <LevelBox
+          title="5b_Garbage_Version"
+          author="Monika"
+          image={
+            <img
+              src={require("../level-images/dashless-plus.jpg")}
+              alt="5BGV"
+            />
+          }
+        />
+        <LevelBox
+          title="5b_Garbage_Version"
+          author="Monika"
+          image={
+            <img
+              src={require("../level-images/dashless-plus.jpg")}
+              alt="5BGV"
+            />
+          }
+        />
+        <LevelBox
+          title="5b_Garbage_Version"
+          author="Monika"
+          image={
+            <img
+              src={require("../level-images/dashless-plus.jpg")}
+              alt="5BGV"
+            />
+          }
+        />
+        <LevelBox
+          title="5b_Garbage_Version"
+          author="Monika"
+          image={
+            <img
+              src={require("../level-images/dashless-plus.jpg")}
+              alt="5BGV"
+            />
+          }
+        />
+        <LevelBox
+          title="5b_Garbage_Version"
+          author="Monika"
+          image={
+            <img
+              src={require("../level-images/dashless-plus.jpg")}
+              alt="5BGV"
+            />
+          }
+        />
+        <LevelBox
+          title="5b_Garbage_Version"
+          author="Monika"
+          image={
+            <img
+              src={require("../level-images/dashless-plus.jpg")}
+              alt="5BGV"
+            />
+          }
+        />
+        <LevelBox
+          title="5b_Garbage_Version"
+          author="Monika"
+          image={
+            <img
+              src={require("../level-images/dashless-plus.jpg")}
+              alt="5BGV"
+            />
+          }
+        />
+        <LevelBox
+          title="5b_Garbage_Version"
+          author="Monika"
+          image={
+            <img
+              src={require("../level-images/dashless-plus.jpg")}
+              alt="5BGV"
+            />
+          }
+        />
+        <LevelBox
+          title="5b_Garbage_Version"
+          author="Monika"
+          image={
+            <img
+              src={require("../level-images/dashless-plus.jpg")}
+              alt="5BGV"
+            />
+          }
+        />
+        <LevelBox
+          title="5b_Garbage_Version"
+          author="Monika"
+          image={
+            <img
+              src={require("../level-images/dashless-plus.jpg")}
+              alt="5BGV"
+            />
+          }
+        />
+      </div>
     </div>
   );
 };

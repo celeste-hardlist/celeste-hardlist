@@ -24,6 +24,7 @@ function App() {
         <Route path="/one-star" element={<OneStar />} />
         <Route path="/updatelog" element={<UpdateLog />} />
         <Route path="/faq" element={<FAQ />} />
+        <Route path="/dashless-plus" element={<FAQ />} />
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
     </Router>

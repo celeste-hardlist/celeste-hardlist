@@ -15,14 +15,14 @@
   text-align: center;
   font-size: 2rem;
 
-  background-color: #89cff0;
+  background-image: linear-gradient(to bottom right, #89cff0, #8577c5);
   min-height: 100vh;
 }
 
 .levelBox {
   width: 500px;
   height: 400px;
-  background-color: #89bef0;
+  background-color: #f9f6f2;
 
   border: 3px solid black;
   border-radius: 5px;
@@ -31,7 +31,7 @@
 }
 
 .levelBox:hover {
-  background-color: #89a8f0;
+  background-color: #e9e6e2;
   text-decoration: underline;
 }
 
