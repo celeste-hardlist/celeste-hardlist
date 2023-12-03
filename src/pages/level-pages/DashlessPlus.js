@@ -9,7 +9,7 @@ function DashlessPlus(props) {
       link="https://gamebanana.com/mods/430430"
       image={
         <img
-          src={require("../level-images/dashless-plus.jpg")}
+          src={require("../../level-images/dashless-plus.jpg")}
           alt="Dashless+"
           width={795} 
           height={450}
