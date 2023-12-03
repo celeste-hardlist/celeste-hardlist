@@ -1,9 +1,10 @@
 import React from "react";
 import LevelBox from "../components/LevelBox.js";
+import { Link } from "react-router-dom";
 
 export const ThreeStar = () => {
   return (
-    <div className="commonPage">
+    <div className="commonPage" id="levelLink">
       <h1 style={{ textAlign: "center" }}>Three Star</h1>
       <h3 style={{ textAlign: "center" }}>
         The hardest of the Hard List. GM+2 or harder.
@@ -18,17 +19,18 @@ export const ThreeStar = () => {
           flexWrap: "wrap",
         }}
       >
-        <a href="/dashless-plus">
-        <LevelBox
-          title="Dashless+"
-          author="Alex21"
-          image={
-            <img
-              src={require("../level-images/dashless-plus.jpg")}
-              alt="Dashless+"
-            />
-          }
-        /></a>
+        <Link to="/dashless-plus">
+          <LevelBox
+            title="Dashless+"
+            author="Alex21"
+            image={
+              <img
+                src={require("../level-images/dashless-plus.jpg")}
+                alt="Dashless+"
+              />
+            }
+          />
+        </Link>
         <LevelBox
           title="D1D7"
           author="TheMathGuy"
@@ -38,10 +40,7 @@ export const ThreeStar = () => {
           title="MOCE // LXVI"
           author="issy"
           image={
-            <img
-              src={require("../level-images/moce-lxvi.jpg")}
-              alt="MOCE // LXVI"
-            />
+            <img src={require("../level-images/moce.jpg")} alt="MOCE // LXVI" />
           }
         />
         <LevelBox

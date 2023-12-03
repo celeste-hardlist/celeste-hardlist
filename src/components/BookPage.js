@@ -4,7 +4,7 @@ function BookPage(props, ref) {
   return (
     <div className={"bookPage"} ref={ref} data-density={"hard"}>
       <h2>{props.text}</h2>
-      <p>{props.children}</p>
+      <p style={{ textAlign: "left" }}>{props.children}</p>
     </div>
   );
 }

@@ -12,6 +12,7 @@ import TwoStar from "./pages/TwoStar";
 import OneStar from "./pages/OneStar";
 import UpdateLog from "./pages/UpdateLog";
 import FAQ from "./pages/FAQ";
+import DashlessPlus from "./pages/level-pages/DashlessPlus";
 
 function App() {
   return (
@@ -24,7 +25,7 @@ function App() {
         <Route path="/one-star" element={<OneStar />} />
         <Route path="/updatelog" element={<UpdateLog />} />
         <Route path="/faq" element={<FAQ />} />
-        <Route path="/dashless-plus" element={<FAQ />} />
+        <Route path="/dashless-plus" element={<DashlessPlus />} />
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
     </Router>
