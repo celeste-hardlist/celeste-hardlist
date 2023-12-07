@@ -40,13 +40,14 @@ export const ThreeStar = () => {
           title="MOCE // LXVI"
           author="issy"
           image={
-            <img src={require("../level-images/moce.jpg")} alt="MOCE // LXVI" />
+            <img src={require("../level-images/moce-lxvi.jpg")} alt="MOCE // LXVI" />
           }
         />
         <LevelBox
           title="Madeline Votes in the US Presidential Election D-Side"
           author="JAN_is_EXIST"
           tooLong={true}
+          nameResize={true}
           image={
             <img
               src={require("../level-images/election-d-side.jpg")}
