@@ -20,11 +20,13 @@ function doGet(e) {
       continue;
     }
     var map = {};
-    map["Map:"] = values[i][0];
+    map["map"] = values[i][0];
+    m = [];
     for (var j = 3; j < values[i].length; j++) {
       if (values[i][j] != "") {
         var person = {};
-        person["Type"] = values[i][j];
+        person["name"] = values[0][j];
+        person["type"] = values[i][j];
         var col = columnToLetter(j + 1);
         var letter = i + 1;
         const range = clear.getRange(col + letter);
@@ -34,11 +36,12 @@ function doGet(e) {
           if (url) ar.push(url);
           return ar;
         }, []);
-        person["Link"] = res;
-        map[values[0][j]] = person;
+        person["link"] = res;
+        m.push(person);
         //map[values[0][j]] = values[i][j];
       }
     }
+    map["completions"] = m;
     data.push(map);
     console.log(map);
     delete row;
