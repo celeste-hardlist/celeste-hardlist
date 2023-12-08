@@ -38,6 +38,12 @@
   text-decoration: underline;
 }
 
+#scrollBox {
+  max-height: 400px;
+  width: 560px;
+  overflow-y: scroll;
+}
+
 .book {
   align-items: center;
   display: flex;

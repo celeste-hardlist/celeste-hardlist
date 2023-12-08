@@ -20,7 +20,7 @@ function doGet(e) {
       continue;
     }
     var map = {};
-    map["map"] = values[i][0];
+    map["mapName"] = values[i][0];
     m = [];
     for (var j = 3; j < values[i].length; j++) {
       if (values[i][j] != "") {

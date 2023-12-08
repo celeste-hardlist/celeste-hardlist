@@ -1,7 +1,7 @@
 import React from "react";
 import { useRef } from "react";
 import HTMLFlipBook from "react-pageflip";
-// import LevelCompletions from "./LevelCompletions.js";
+import LevelCompletions from "./LevelCompletions.js";
 import BookPage from "../components/BookPage.js";
 import CoverPage from "../components/CoverPage.js";
 
@@ -73,7 +73,11 @@ function LevelPage(props) {
           ref={book}
         >
           <CoverPage text={props.name}></CoverPage>
-          <BookPage text="Clears"></BookPage>
+          <BookPage text="Clears">
+            <table>
+              <LevelCompletions mapName="Dashless+ by Alex21" />
+            </table>
+          </BookPage>
           <BookPage text="Monthly Clears"></BookPage>
         </HTMLFlipBook>
       </div>

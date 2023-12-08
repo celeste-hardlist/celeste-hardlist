@@ -1,7 +1,7 @@
 {
   "data": [
     {
-      "map": "Dashless+ by Alex21",
+      "mapName": "Dashless+ by Alex21",
       "completions": [
         {
           "name": "Abraham Lincoln",
@@ -95,7 +95,7 @@
       ]
     },
     {
-      "map": "D1D7 by TheMathGuy",
+      "mapName": "D1D7 by TheMathGuy",
       "completions": [
         {
           "name": "a jojo weeb",
@@ -160,7 +160,7 @@
       ]
     },
     {
-      "map": "MOCE // LXVI by issy",
+      "mapName": "MOCE // LXVI by issy",
       "completions": [
         {
           "name": "aether",
@@ -341,7 +341,7 @@
       ]
     },
     {
-      "map": "Madeline Votes in the US Presidential Election D-Side by JAN_is_EXIST",
+      "mapName": "Madeline Votes in the US Presidential Election D-Side by JAN_is_EXIST",
       "completions": [
         {
           "name": "alyla",
@@ -387,7 +387,7 @@
       ]
     },
     {
-      "map": "Crystal Garden by Etpio",
+      "mapName": "Crystal Garden by Etpio",
       "completions": [
         {
           "name": "anan",
@@ -492,7 +492,7 @@
       ]
     },
     {
-      "map": "Dragonfruit Demise by #mapping-grandmaster",
+      "mapName": "Dragonfruit Demise by #mapping-grandmaster",
       "completions": [
         {
           "name": "c00l",
@@ -541,7 +541,7 @@
       ]
     },
     {
-      "map": "Avian Ascension by Parrot Dash",
+      "mapName": "Avian Ascension by Parrot Dash",
       "completions": [
         {
           "name": "aether",
@@ -783,7 +783,7 @@
       ]
     },
     {
-      "map": "Mature Grape+ by SPLOwON",
+      "mapName": "Mature Grape+ by SPLOwON",
       "completions": [
         {
           "name": "anan",
@@ -839,7 +839,7 @@
       ]
     },
     {
-      "map": "[LPL Collab] GDDH by Star Sapphire",
+      "mapName": "[LPL Collab] GDDH by Star Sapphire",
       "completions": [
         {
           "name": "BS_KNK",
@@ -939,7 +939,7 @@
       ]
     },
     {
-      "map": "The Source by Rafix 01",
+      "mapName": "The Source by Rafix 01",
       "completions": [
         {
           "name": "Chirazen",
@@ -1011,7 +1011,7 @@
       ]
     },
     {
-      "map": "Shatter Site by AstralightSky",
+      "mapName": "Shatter Site by AstralightSky",
       "completions": [
         {
           "name": "Alex",
@@ -1141,7 +1141,7 @@
       ]
     },
     {
-      "map": "MOCE // CPVL by issy",
+      "mapName": "MOCE // CPVL by issy",
       "completions": [
         {
           "name": "Aerolyst",
@@ -1768,7 +1768,7 @@
       ]
     },
     {
-      "map": "[Strawberry Jam] Passionfruit Pantheon by The SJ Team",
+      "mapName": "[Strawberry Jam] Passionfruit Pantheon by The SJ Team",
       "completions": [
         {
           "name": "Aerolyst",
@@ -2817,7 +2817,7 @@
       ]
     },
     {
-      "map": "CMgv by TheMathGuy",
+      "mapName": "CMgv by TheMathGuy",
       "completions": [
         {
           "name": "anan",
@@ -2921,7 +2921,7 @@
       ]
     },
     {
-      "map": "Horror Vacui by Fref",
+      "mapName": "Horror Vacui by Fref",
       "completions": [
         {
           "name": "apple_sheep",
@@ -3010,7 +3010,7 @@
       ]
     },
     {
-      "map": "118.71% FulFilled Emptiness\nby Isanc",
+      "mapName": "118.71% FulFilled Emptiness\nby Isanc",
       "completions": [
         {
           "name": "almonds",
@@ -3113,7 +3113,7 @@
       ]
     },
     {
-      "map": "Magnetic Dawn (B-Side)\nby Firethief1",
+      "mapName": "Magnetic Dawn (B-Side)\nby Firethief1",
       "completions": [
         {
           "name": "Aerolyst",
@@ -3288,7 +3288,7 @@
       ]
     },
     {
-      "map": "5b_Garbage_Version by Monika",
+      "mapName": "5b_Garbage_Version by Monika",
       "completions": [
         {
           "name": "cattastic212",
@@ -3378,7 +3378,7 @@
       ]
     },
     {
-      "map": "7D With Single Dash... (Old)\nby fishtank_underflow",
+      "mapName": "7D With Single Dash... (Old)\nby fishtank_underflow",
       "completions": [
         {
           "name": "Aerolyst",
@@ -3825,7 +3825,7 @@
       ]
     },
     {
-      "map": "The Big Reveal by Scraggly1",
+      "mapName": "The Big Reveal by Scraggly1",
       "completions": [
         {
           "name": "Appels",
@@ -3861,7 +3861,7 @@
       ]
     },
     {
-      "map": "Forsaken Undercity by PejaDuos",
+      "mapName": "Forsaken Undercity by PejaDuos",
       "completions": [
         {
           "name": "Alex",
@@ -4417,7 +4417,7 @@
       ]
     },
     {
-      "map": "hAAAi (Full Clear) by Nuwut",
+      "mapName": "hAAAi (Full Clear) by Nuwut",
       "completions": [
         {
           "name": "Aerolyst",
@@ -4528,7 +4528,7 @@
       ]
     },
     {
-      "map": "Mauve by smoothee",
+      "mapName": "Mauve by smoothee",
       "completions": [
         {
           "name": "Aerolyst",
@@ -5269,7 +5269,7 @@
       ]
     },
     {
-      "map": "Moon of the Ultras by Rifs",
+      "mapName": "Moon of the Ultras by Rifs",
       "completions": [
         {
           "name": "Aerolyst",
@@ -5926,7 +5926,7 @@
       ]
     },
     {
-      "map": "Pale Violet (Full Clear) by Egrym",
+      "mapName": "Pale Violet (Full Clear) by Egrym",
       "completions": [
         {
           "name": "anan",
@@ -5976,7 +5976,7 @@
       ]
     },
     {
-      "map": "[Strawberry Jam] Pinball Purgatory (Full Clear) by Maya",
+      "mapName": "[Strawberry Jam] Pinball Purgatory (Full Clear) by Maya",
       "completions": [
         {
           "name": "aefive",
@@ -7529,7 +7529,7 @@
       ]
     },
     {
-      "map": "Ridge by smoothee",
+      "mapName": "Ridge by smoothee",
       "completions": [
         {
           "name": "alix",
@@ -7672,7 +7672,7 @@
       ]
     },
     {
-      "map": "Sapphire Dash by Star Sapphire",
+      "mapName": "Sapphire Dash by Star Sapphire",
       "completions": [
         {
           "name": "aether",
@@ -8011,7 +8011,7 @@
       ]
     },
     {
-      "map": "S.B.W.W. by Star_yang",
+      "mapName": "S.B.W.W. by Star_yang",
       "completions": [
         {
           "name": "anan",
@@ -8293,7 +8293,7 @@
       ]
     },
     {
-      "map": "Serotonin by gtfo-",
+      "mapName": "Serotonin by gtfo-",
       "completions": [
         {
           "name": "anan",
@@ -8400,7 +8400,7 @@
       ]
     },
     {
-      "map": "[Strawberry Jam] The Solar Express (Full Clear) by Soloiini",
+      "mapName": "[Strawberry Jam] The Solar Express (Full Clear) by Soloiini",
       "completions": [
         {
           "name": "Accracy",
@@ -9677,7 +9677,7 @@
       ]
     },
     {
-      "map": "SWAPSLUT by tirednwired",
+      "mapName": "SWAPSLUT by tirednwired",
       "completions": [
         {
           "name": "Asgord",
@@ -9840,7 +9840,7 @@
       ]
     },
     {
-      "map": "Temple of Bounceleste by Ezel142",
+      "mapName": "Temple of Bounceleste by Ezel142",
       "completions": [
         {
           "name": "aether",
@@ -10074,7 +10074,7 @@
       ]
     },
     {
-      "map": "Vivid Abyss (Full Clear)\nby ABuffZucchini",
+      "mapName": "Vivid Abyss (Full Clear)\nby ABuffZucchini",
       "completions": [
         {
           "name": "ABuffZucchini",
@@ -10896,7 +10896,7 @@
       ]
     },
     {
-      "map": "Darkmoon Ruins by Cabob & Ru",
+      "mapName": "Darkmoon Ruins by Cabob & Ru",
       "completions": [
         {
           "name": "ABuffZucchini",
