@@ -13,7 +13,11 @@ import OneStar from "./pages/OneStar";
 import UpdateLog from "./pages/UpdateLog";
 import FAQ from "./pages/FAQ";
 import DashlessPlus from "./pages/level-pages/DashlessPlus";
-
+import D1D7 from "./pages/level-pages/D1D7";
+import MOCE_LXVI from "./pages/level-pages/MOCE_LXVI";
+import ElectionDSide from "./pages/level-pages/ElectionDSide";
+import CrystalGarden from "./pages/level-pages/CrystalGarden";
+import DragonfruitDemise from "./pages/level-pages/DragonfruitDemise";
 function App() {
   return (
     <Router>
@@ -26,6 +30,11 @@ function App() {
         <Route path="/updatelog" element={<UpdateLog />} />
         <Route path="/faq" element={<FAQ />} />
         <Route path="/dashless-plus" element={<DashlessPlus />} />
+        <Route path="/d1d7" element={<D1D7 />} />
+        <Route path="/moce-lxvi" element={<MOCE_LXVI />} />
+        <Route path="/election-d-side" element={<ElectionDSide />} />
+        <Route path="/crystal-garden" element={<CrystalGarden />} />
+        <Route path="/dragonfruit-demise" element={<DragonfruitDemise />} />
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
     </Router>
