@@ -1,9 +1,9 @@
 import React from "react";
 import LevelBox from "../components/LevelBox.js";
-
+import { Link } from "react-router-dom";
 export const OneStar = () => {
   return (
-    <div className="commonPage">
+    <div className="commonPage" id="levelLink">
       <h1 style={{ textAlign: "center" }}>One Star</h1>
       <h3 style={{ textAlign: "center" }}>
         At least as hard as Darkmoon Ruins, up to Green GM+1. Not ordered by

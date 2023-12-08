@@ -50,7 +50,7 @@ export const ThreeStar = () => {
             }
           />
         </Link>
-        <Link to="/election-d-side">
+        <Link to="/election-d">
           <LevelBox
             title="Madeline Votes in the US Presidential Election D-Side"
             author="JAN_is_EXIST"

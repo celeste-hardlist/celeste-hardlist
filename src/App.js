@@ -18,6 +18,17 @@ import MOCE_LXVI from "./pages/level-pages/MOCE_LXVI";
 import ElectionDSide from "./pages/level-pages/ElectionDSide";
 import CrystalGarden from "./pages/level-pages/CrystalGarden";
 import DragonfruitDemise from "./pages/level-pages/DragonfruitDemise";
+import AvianAscension from "./pages/level-pages/AvianAscension";
+import MatureGrapePlus from "./pages/level-pages/MatureGrapePlus";
+import LPL_GDDH from "./pages/level-pages/LPL_GDDH";
+import TheSource from "./pages/level-pages/TheSource";
+import ShatterSite from "./pages/level-pages/ShatterSite";
+import MOCE_CPVL from "./pages/level-pages/MOCE_CPVL";
+import SJ_PassionFruitPantheon from "./pages/level-pages/SJ_PassionFruitPantheon";
+import CMgv from "./pages/level-pages/CMgv";
+import HorrorVacui from "./pages/level-pages/HorrorVacui";
+import FulFilledEmptiness from "./pages/level-pages/FulFilledEmptiness";
+import MagneticDawnB from "./pages/level-pages/MagneticDawnB";
 function App() {
   return (
     <Router>
@@ -32,9 +43,26 @@ function App() {
         <Route path="/dashless-plus" element={<DashlessPlus />} />
         <Route path="/d1d7" element={<D1D7 />} />
         <Route path="/moce-lxvi" element={<MOCE_LXVI />} />
-        <Route path="/election-d-side" element={<ElectionDSide />} />
+        <Route path="/election-d" element={<ElectionDSide />} />
         <Route path="/crystal-garden" element={<CrystalGarden />} />
         <Route path="/dragonfruit-demise" element={<DragonfruitDemise />} />
+        <Route path="/avian-ascension" element={<AvianAscension />} />
+        <Route path="/mature-grape-plus" element={<MatureGrapePlus />} />
+        <Route path="/lpl-gddh" element={<LPL_GDDH />} />
+        <Route path="/the-source" element={<TheSource />} />
+        <Route path="/shatter-site" element={<ShatterSite />} />
+        <Route path="/moce-cpvl" element={<MOCE_CPVL />} />
+        <Route
+          path="/sj-passionfruit-pantheon"
+          element={<SJ_PassionFruitPantheon />}
+        />
+        <Route path="/cgmv" element={<CMgv />} />
+        <Route path="/horror-vacui" element={<HorrorVacui />} />
+        <Route
+          path="/11871-fulfilled-emptiness"
+          element={<FulFilledEmptiness />}
+        />
+        <Route path="/magnetic-dawn-b" element={<MagneticDawnB />} />
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
     </Router>

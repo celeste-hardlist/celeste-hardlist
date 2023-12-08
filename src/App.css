@@ -105,18 +105,22 @@
 
 #gameBananaLink a:link {
   color: rgb(0, 0, 0);
+  text-decoration: underline;
 }
 
 #gameBananaLink a:visited {
   color: rgb(0, 0, 0);
+  text-decoration: underline;
 }
 
 #gameBananaLink a:hover {
   color: rgb(64, 64, 64);
+  text-decoration: underline;
 }
 
 #gameBananaLink a:active {
   color: rgb(255, 0, 0);
+  text-decoration: underline;
 }
 
 .column {
