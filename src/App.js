@@ -24,11 +24,29 @@ import LPL_GDDH from "./pages/level-pages/LPL_GDDH";
 import TheSource from "./pages/level-pages/TheSource";
 import ShatterSite from "./pages/level-pages/ShatterSite";
 import MOCE_CPVL from "./pages/level-pages/MOCE_CPVL";
-import SJ_PassionFruitPantheon from "./pages/level-pages/SJ_PassionFruitPantheon";
+import SJPassionFruitPantheon from "./pages/level-pages/SJPassionFruitPantheon";
 import CMgv from "./pages/level-pages/CMgv";
 import HorrorVacui from "./pages/level-pages/HorrorVacui";
 import FulFilledEmptiness from "./pages/level-pages/FulFilledEmptiness";
 import MagneticDawnB from "./pages/level-pages/MagneticDawnB";
+import FBGV from "./pages/level-pages/FBGV";
+import SD1DO from "./pages/level-pages/SD1DO";
+import TheBigReveal from "./pages/level-pages/TheBigReveal";
+import ForsakenUndercity from "./pages/level-pages/ForsakenUndercity";
+import Haaai from "./pages/level-pages/Haaai";
+import Mauve from "./pages/level-pages/Mauve";
+import MoonOfTheUltras from "./pages/level-pages/MoonOfTheUltras";
+import PaleViolet from "./pages/level-pages/PaleViolet";
+import PinballPurgatory from "./pages/level-pages/PinballPurgatory";
+import Ridge from "./pages/level-pages/Ridge";
+import SapphireDash from "./pages/level-pages/SapphireDash";
+import SBWW from "./pages/level-pages/SBWW";
+import Serotonin from "./pages/level-pages/Serotonin";
+import TheSolarExpress from "./pages/level-pages/TheSolarExpress";
+import SWAPSLUT from "./pages/level-pages/SWAPSLUT";
+import TempleOfBounceleste from "./pages/level-pages/TempleOfBounceleste";
+import VividAbyss from "./pages/level-pages/VividAbyss";
+import DarkmoonRuins from "./pages/level-pages/DarkmoonRuins";
 function App() {
   return (
     <Router>
@@ -54,7 +72,7 @@ function App() {
         <Route path="/moce-cpvl" element={<MOCE_CPVL />} />
         <Route
           path="/sj-passionfruit-pantheon"
-          element={<SJ_PassionFruitPantheon />}
+          element={<SJPassionFruitPantheon />}
         />
         <Route path="/cgmv" element={<CMgv />} />
         <Route path="/horror-vacui" element={<HorrorVacui />} />
@@ -63,6 +81,27 @@ function App() {
           element={<FulFilledEmptiness />}
         />
         <Route path="/magnetic-dawn-b" element={<MagneticDawnB />} />
+        <Route path="/5bgv" element={<FBGV />} />
+        <Route path="/7d1do" element={<SD1DO />} />
+        <Route path="/the-big-reveal" element={<TheBigReveal />} />
+        <Route path="/forsaken-undercity" element={<ForsakenUndercity />} />
+        <Route path="/haaai" element={<Haaai />} />
+        <Route path="/mauve" element={<Mauve />} />
+        <Route path="/moon-of-the-ultras" element={<MoonOfTheUltras />} />
+        <Route path="/pale-violet" element={<PaleViolet />} />
+        <Route path="/sj-pinball-purgatory" element={<PinballPurgatory />} />
+        <Route path="/ridge" element={<Ridge />} />
+        <Route path="/sapphire-dash" element={<SapphireDash />} />
+        <Route path="/sbww" element={<SBWW />} />
+        <Route path="/serotonin" element={<Serotonin />} />
+        <Route path="/the-solar-express" element={<TheSolarExpress />} />
+        <Route path="/swapslut" element={<SWAPSLUT />} />
+        <Route
+          path="/temple-of-bounceleste"
+          element={<TempleOfBounceleste />}
+        />
+        <Route path="/vivid-abyss" element={<VividAbyss />} />
+        <Route path="/darkmoon-ruins" element={<DarkmoonRuins />} />
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
     </Router>
