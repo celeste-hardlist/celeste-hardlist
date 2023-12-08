@@ -75,7 +75,7 @@ function LevelPage(props) {
           <CoverPage text={props.name}></CoverPage>
           <BookPage text="Clears">
             <table>
-              <LevelCompletions mapName="Dashless+ by Alex21" />
+              <LevelCompletions mapName={props.mapName} />
             </table>
           </BookPage>
           <BookPage text="Monthly Clears"></BookPage>

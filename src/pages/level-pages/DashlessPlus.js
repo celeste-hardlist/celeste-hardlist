@@ -5,13 +5,14 @@ function DashlessPlus(props) {
   return (
     <LevelPage
       name="Dashless+"
+      mapName="Dashless+ by Alex21"
       author="Alex21"
       link="https://gamebanana.com/mods/430430"
       image={
         <img
           src={require("../../level-images/dashless-plus.jpg")}
           alt="Dashless+"
-          width={742} 
+          width={742}
           height={420}
         />
       }
