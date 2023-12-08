@@ -24,7 +24,7 @@ export const OneStar = () => {
           author="Monika"
           image={
             <img
-              src={require("../level-images/dashless-plus.jpg")}
+              src={require("../level-images/5bgv.jpg")}
               alt="5BGV"
             />
           }
@@ -103,7 +103,7 @@ export const OneStar = () => {
           tooLong={true}
           image={
             <img
-              src={require("../level-images/dashless-plus.jpg")}
+              src={require("../level-images/sj-pinball-purgatory.jpg")}
               alt="Pinball Purgatory"
             />
           }
@@ -152,7 +152,7 @@ export const OneStar = () => {
           author="Soloiini"
           image={
             <img
-              src={require("../level-images/dashless-plus.jpg")}
+              src={require("../level-images/sj-the-solar-express.jpg")}
               alt="The Solar Express"
             />
           }

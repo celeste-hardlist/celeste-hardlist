@@ -54,7 +54,7 @@ export const TwoStar = () => {
             image={
               <img
                 src={require("../level-images/lpl-gddh.jpg")}
-                alt="[LPL Collab] GDDH"
+                alt="GDDH"
               />
             }
           />
@@ -108,7 +108,7 @@ export const TwoStar = () => {
             image={
               <img
                 src={require("../level-images/sj-passionfruit-pantheon.jpg")}
-                alt="[Strawberry Jam] Passionfruit Pantheon"
+                alt="Passionfruit Pantheon"
               />
             }
           />
