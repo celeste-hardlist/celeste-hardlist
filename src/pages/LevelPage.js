@@ -26,7 +26,7 @@ function LevelPage(props) {
         <div
           class="column"
           style={{
-            width: "60vw",
+            width: "58vw",
             padding: "10px",
             textAlign: "left",
             display: "block",
