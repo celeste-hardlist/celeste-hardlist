@@ -1,7 +1,7 @@
 import React from "react";
 import { useRef } from "react";
 import HTMLFlipBook from "react-pageflip";
-import LevelCompletions from "./LevelCompletions.js";
+import LevelCompletions from "../components/LevelCompletions.js";
 import BookPage from "../components/BookPage.js";
 import CoverPage from "../components/CoverPage.js";
 

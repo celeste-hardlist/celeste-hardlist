@@ -143,6 +143,31 @@ tr {
   border-bottom: 1px solid #000000;
 }
 
+#homeTable table, th, td, tr {
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  border-spacing: 30px;
+}
+
+.levelsPageBox {
+  align-items: center;
+  border: 3px solid black;
+  border-radius: 15px;
+
+  padding: 20px;
+  margin: 10px;
+}
+
+#homeTable tr {
+  border-bottom: none;
+}
+
+.homeBG1 {
+  background-color: linear-gradient(to bottom right, #89cff0, #8577c5);
+}
+
 .column {
   float: left;
 }
