@@ -12,8 +12,6 @@ function SBWW(props) {
         <img
           src={require("../../level-images/sbww.jpg")}
           alt="S.B.W.W."
-          width={742}
-          height={420}
         />
       }
       description="This is my first map, with 10 gm rooms and a puzzle room with moonberry.

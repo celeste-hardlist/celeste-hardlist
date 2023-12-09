@@ -19,6 +19,19 @@ export const OneStar = () => {
           flexWrap: "wrap",
         }}
       >
+        <Link to="/2000s-housing-crisis">
+          <LevelBox
+            title="The 2000's American Housing Crisis"
+            author="jimmyclyde"
+            tooLong={true}
+            image={
+              <img
+                src={require("../level-images/2000s-housing-crisis.jpg")}
+                alt="The 2000's American Housing Crisis"
+              />
+            }
+          />
+        </Link>
         <Link to="/5bgv">
           <LevelBox
             title="5b_Garbage_Version"

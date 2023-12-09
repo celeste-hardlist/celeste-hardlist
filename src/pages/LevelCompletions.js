@@ -14,10 +14,31 @@ function LevelCompletions(props) {
                     data.completions.map((data) => {
                       return (
                         <div style={{ fontSize: "25px", width: "150px" }}>
-                          <tr>
-                            <td style={{minWidth: "300px"}}>{data.name}</td>
-                            <td style={{minWidth: "60px"}}>{data.type}</td>
-                            <td style={{minWidth: "80px"}}>
+                          <tr
+                            style={{
+                              backgroundColor:
+                                data.type === "fc"
+                                  ? "pink"
+                                  : data.type === "c"
+                                  ? "cyan"
+                                  : data.type === "nv"
+                                  ? "green"
+                                  :  data.type === "s"
+                                  ? "silver"
+                                  :  data.type === "s1 s2"
+                                  ? "silver"
+                                  :  data.type === "g"
+                                  ? "gold"
+                                  : "yellow"
+                            }}
+                          >
+                            <td style={{ minWidth: "460px" }}>{data.name}</td>
+                            <td
+                              style={{
+                                minWidth: "80px",
+                                verticalAlign: "baseline",
+                              }}
+                            >
                               {data.link &&
                                 data.link.map((data) => {
                                   return (

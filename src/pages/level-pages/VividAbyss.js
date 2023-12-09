@@ -12,15 +12,13 @@ function VividAbyss(props) {
           </span>
         </p>
       }
-      mapName="Vivid Abyss (Full Clear) by ABuffZucchini"
+      mapName={"Vivid Abyss (Full Clear)\nby ABuffZucchini"}
       author="ABuffZucchini"
       link="https://gamebanana.com/mods/398155"
       image={
         <img
           src={require("../../level-images/vivid-abyss.jpg")}
           alt="VividAbyss"
-          width={742}
-          height={420}
         />
       }
       description="Vivid Abyss has been a passion project of mine for over three months now, and it's an amazing feeling to finally have it done. It's my longest map yet, and also among the hardest."

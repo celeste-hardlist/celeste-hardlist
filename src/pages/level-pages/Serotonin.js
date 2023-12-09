@@ -12,8 +12,6 @@ function Serotonin(props) {
         <img
           src={require("../../level-images/serotonin.jpg")}
           alt="Serotonin"
-          width={742}
-          height={420}
         />
       }
       description="Map consists of 18 jumps which need multiple frame perfect inputs.

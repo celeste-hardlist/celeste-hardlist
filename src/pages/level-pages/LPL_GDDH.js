@@ -19,8 +19,6 @@ function LPL_GDDH(props) {
         <img
           src={require("../../level-images/lpl-gddh.jpg")}
           alt="GDDH"
-          width={742}
-          height={420}
         />
       }
       description="The LPL Collab 2022 is a meme collab that took a year to make by many producers. it's a terrible collab but you can probably feel the joy in it? If you're confused about the content of this collab, in that way you will be confused."

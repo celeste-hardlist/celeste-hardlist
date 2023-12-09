@@ -21,8 +21,8 @@
 }
 
 .levelBox {
-  width: 535px;
-  height: 410px;
+  width: 505px;
+  height: 385px;
   background-color: #f9f6f2;
 
   border: 3px solid black;
@@ -30,6 +30,7 @@
   margin: 20px;
   padding: 0px;
 
+  white-space: initial;
   box-shadow: 10px 10px rgb(36, 36, 36);
 }
 
@@ -39,6 +40,7 @@
 }
 
 #scrollBox {
+  min-height: 400px;
   max-height: 400px;
   width: 560px;
   overflow-y: scroll;
@@ -103,6 +105,16 @@
   color: rgb(255, 0, 0);
 }
 
+#levelLink img {
+  width: 500px;
+  height: auto;
+}
+
+#levelPageImage img {
+  width: 531px;
+  height: auto;
+}
+
 #gameBananaLink a:link {
   color: rgb(0, 0, 0);
   text-decoration: underline;
@@ -123,19 +135,20 @@
   text-decoration: underline;
 }
 
+table {
+  border-collapse: collapse;
+}
+
+tr {
+  border-bottom: 1px solid #000000;
+}
+
 .column {
   float: left;
-  width: 50%;
 }
 
 .row:after {
   content: "";
   display: table;
   clear: both;
-}
-
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-  }
 }

@@ -12,8 +12,6 @@ function TheSource(props) {
         <img
           src={require("../../level-images/the-source.jpg")}
           alt="The Source"
-          width={742}
-          height={420}
         />
       }
       description="It's finally here!! This is my very first and likely the last map that i had the pleasure making, the journey here wasn't easy but after almost 10 months of on and off working on this it's finished.

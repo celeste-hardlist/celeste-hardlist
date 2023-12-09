@@ -15,7 +15,7 @@ function doGet(e) {
   var data = [];
   var values = clear.getDataRange().getValues();
 
-  for (var i = 2; i < 39; i++) {
+  for (var i = 2; i < 40; i++) {
     if (i == 8 || i == 20) {
       continue;
     }

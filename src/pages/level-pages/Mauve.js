@@ -12,8 +12,6 @@ function Mauve(props) {
         <img
           src={require("../../level-images/mauve.jpg")}
           alt="Mauve"
-          width={742}
-          height={420}
         />
       }
       description="This is a very difficult, short to medium length map with very short gameplay segments of either simple movement puzzles or high input-density speed chains. The hardest rooms feature corner boosts of all kinds and require tight speed optimization. As you get a feel for the jump heights and dash inputs of a room, you will push the inputs closer and closer together until you flow through the environment faster than your brain can process."

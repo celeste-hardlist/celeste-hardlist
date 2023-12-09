@@ -12,8 +12,6 @@ function AvianAscension(props) {
         <img
           src={require("../../level-images/avian-ascension.jpg")}
           alt="Avian Ascension"
-          width={742}
-          height={420}
         />
       }
       description="Here we go, after working on this around (or sometimes even on) streams for the last month or so, its finally finished! I am actually really happy with how this turned out so I hope you will enjoy.

@@ -12,8 +12,6 @@ function ForsakenUndercity(props) {
         <img
           src={require("../../level-images/forsaken-undercity.jpg")}
           alt="Forsaken Undercity"
-          width={742}
-          height={420}
         />
       }
       description="Have you ever wondered what will happen if you turn the wrong way in the first chapter? To what depths will the old abandoned tunnel under the Celeste mountain lead? 

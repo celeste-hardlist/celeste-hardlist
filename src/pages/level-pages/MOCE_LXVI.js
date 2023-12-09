@@ -12,8 +12,6 @@ function MOCE_LXVI(props) {
         <img
           src={require("../../level-images/moce-lxvi.jpg")}
           alt="MOCE-LXVI"
-          width={742}
-          height={420}
         />
       }
       description="its really finished! i started working on the second chapter nearly 5 months ago, and here it is, finally seeing the light of day"

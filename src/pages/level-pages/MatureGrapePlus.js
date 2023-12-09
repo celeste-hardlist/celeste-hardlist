@@ -12,8 +12,6 @@ function MatureGrapePlus(props) {
         <img
           src={require("../../level-images/mature-grape-plus.jpg")}
           alt="Mature Grape+"
-          width={742}
-          height={420}
         />
       }
       description="omg maturegrape+ no way 

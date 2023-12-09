@@ -3,7 +3,7 @@ import React from "react";
 function CoverPage(props, ref) {
   return (
     <div className={"coverPage"} ref={ref} data-density={"hard"}>
-      <h2>{props.text}</h2>
+      <h3>{props.text}</h3>
     </div>
   );
 }

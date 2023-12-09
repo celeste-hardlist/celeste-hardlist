@@ -22,8 +22,6 @@ function TheSolarExpress(props) {
         <img
           src={require("../../level-images/sj-the-solar-express.jpg")}
           alt="The Solar Express"
-          width={742}
-          height={420}
         />
       }
       description="Description"

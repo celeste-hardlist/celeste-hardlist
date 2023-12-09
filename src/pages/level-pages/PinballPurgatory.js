@@ -22,8 +22,6 @@ function PinballPurgatory(props) {
         <img
           src={require("../../level-images/sj-pinball-purgatory.jpg")}
           alt="Pinball Purgatory"
-          width={742}
-          height={420}
         />
       }
       description="Description"

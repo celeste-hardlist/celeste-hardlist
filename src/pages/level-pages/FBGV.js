@@ -12,8 +12,6 @@ function FBGV(props) {
         <img
           src={require("../../level-images/5bgv.jpg")}
           alt="5BGV"
-          width={742}
-          height={420}
         />
       }
       description="description"

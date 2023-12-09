@@ -19,8 +19,6 @@ function SJ_PassionFruitPantheon(props) {
         <img
           src={require("../../level-images/sj-passionfruit-pantheon.jpg")}
           alt="Passionfruit Pantheon"
-          width={742}
-          height={420}
         />
       }
       description="description"

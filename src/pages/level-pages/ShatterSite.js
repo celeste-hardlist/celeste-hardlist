@@ -12,8 +12,6 @@ function ShatterSite(props) {
         <img
           src={require("../../level-images/shatter-site.jpg")}
           alt="Shatter Site"
-          width={742}
-          height={420}
         />
       }
       description="A relatively short dashless map I started just over a week ago.

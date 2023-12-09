@@ -12,8 +12,6 @@ function DragonfruitDemise(props) {
         <img
           src={require("../../level-images/dragonfruit-demise.jpg")}
           alt="Dragonfruit Demise"
-          width={742}
-          height={420}
         />
       }
       description="by various people in strawberry jam"

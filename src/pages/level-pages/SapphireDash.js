@@ -12,8 +12,6 @@ function SapphireDash(props) {
         <img
           src={require("../../level-images/sapphire-dash.jpg")}
           alt="Sapphire Dash"
-          width={742}
-          height={420}
         />
       }
       description="Madeline arrrives in a bustling city. She comes here in pursuit of Crystal Heart."

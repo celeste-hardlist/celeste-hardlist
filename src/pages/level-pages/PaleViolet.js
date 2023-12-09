@@ -19,8 +19,6 @@ function PaleViolet(props) {
         <img
           src={require("../../level-images/pale-violet.jpg")}
           alt="Pale Violet"
-          width={742}
-          height={420}
         />
       }
       description="Go on a relaxing stroll through the Violet mountains with Madeline in this map made for speed tech enthusiasts. This map is inspired by Smoothee's mauve and is designed to be an introductory experience to this style of gameplay. Tech veterans should still find a good challenge in getting the berries scattered throughout."

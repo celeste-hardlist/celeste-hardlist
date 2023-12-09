@@ -5,15 +5,13 @@ function FulFilledEmptiness(props) {
   return (
     <LevelPage
       name="118.71% FulFilled Emptiness"
-      mapName="118.71% FulFilled Emptiness by Isanc"
+      mapName={"118.71% FulFilled Emptiness\nby Isanc"}
       author="Isanc"
       link="https://gamebanana.com/mods/401004"
       image={
         <img
           src={require("../../level-images/11871-fulfilled-emptiness.jpg")}
           alt="118.71% FulFilled Emptiness"
-          width={742}
-          height={420}
         />
       }
       description='Before you step into the boundless snow at the pace of "despair",read this first.

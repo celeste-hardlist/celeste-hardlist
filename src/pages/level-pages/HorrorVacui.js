@@ -12,8 +12,6 @@ function HorrorVacui(props) {
         <img
           src={require("../../level-images/horror-vacui.jpg")}
           alt="Horror Vacui"
-          width={742}
-          height={420}
         />
       }
       description="This is my first mod! It is set in a claustrophobic environment and it features a few rooms with brief explorations of some cool mechanics.

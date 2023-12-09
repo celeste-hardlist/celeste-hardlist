@@ -12,8 +12,6 @@ function ElectionDSide(props) {
         <img
           src={require("../../level-images/election-d-side.jpg")}
           alt="ElectionDSide"
-          width={742}
-          height={420}
         />
       }
       description="The election storyline continues!

@@ -19,8 +19,6 @@ function Haaai(props) {
         <img
           src={require("../../level-images/haaai.jpg")}
           alt="hAAAi"
-          width={742}
-          height={420}
         />
       }
       description="A girl stuck in mountain caverns. Unable to die, so always moving forwards. 

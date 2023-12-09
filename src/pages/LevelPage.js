@@ -24,7 +24,7 @@ function LevelPage(props) {
         <div
           class="column"
           style={{
-            width: "820px",
+            width: "60vw",
             padding: "10px",
             textAlign: "left",
             display: "block",
@@ -37,11 +37,11 @@ function LevelPage(props) {
         >
           <h5>{props.description}</h5>
         </div>
-        <div class="column">
+        <div class="column" id="levelPageImage">
           <div
             style={{
-              width: "747px",
-              height: "426px",
+              width: "535px",
+              height: "304px",
               border: "3px solid black",
               borderRadius: "5px",
               marginLeft: "50px",
@@ -78,7 +78,7 @@ function LevelPage(props) {
               <LevelCompletions mapName={props.mapName} />
             </table>
           </BookPage>
-          <BookPage text="Monthly Clears"></BookPage>
+          <BookPage text="Monthly Clears">Will be updated soon!</BookPage>
         </HTMLFlipBook>
       </div>
     </div>

@@ -29,6 +29,7 @@ import CMgv from "./pages/level-pages/CMgv";
 import HorrorVacui from "./pages/level-pages/HorrorVacui";
 import FulFilledEmptiness from "./pages/level-pages/FulFilledEmptiness";
 import MagneticDawnB from "./pages/level-pages/MagneticDawnB";
+import TwoKHousingCrisis from "./pages/level-pages/TwoKHousingCrisis"
 import FBGV from "./pages/level-pages/FBGV";
 import SD1DO from "./pages/level-pages/SD1DO";
 import TheBigReveal from "./pages/level-pages/TheBigReveal";
@@ -81,6 +82,7 @@ function App() {
           element={<FulFilledEmptiness />}
         />
         <Route path="/magnetic-dawn-b" element={<MagneticDawnB />} />
+        <Route path="/2000s-housing-crisis" element={<TwoKHousingCrisis />} />
         <Route path="/5bgv" element={<FBGV />} />
         <Route path="/7d1do" element={<SD1DO />} />
         <Route path="/the-big-reveal" element={<TheBigReveal />} />

@@ -12,8 +12,6 @@ function CMgv(props) {
         <img
           src={require("../../level-images/cmgv.jpg")}
           alt="CMgv"
-          width={742}
-          height={420}
         />
       }
       description="This is cycle madness, but worse. Not much else to add. DeathKontrol does not recommend or condone people playing this map. I don't recommend playing this map either."

@@ -12,8 +12,6 @@ function TheBigReveal(props) {
         <img
           src={require("../../level-images/the-big-reveal.jpg")}
           alt="The Big Reveal"
-          width={742}
-          height={420}
         />
       }
       description="My final Celeste map. No collectables. It is time for, all to be... big revealed. 

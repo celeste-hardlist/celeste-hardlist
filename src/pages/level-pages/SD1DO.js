@@ -5,15 +5,13 @@ function SD1DO(props) {
   return (
     <LevelPage
       name="7D With Single Dash... (Old)"
-      mapName="7D With Single Dash... (Old) by fishtank_underflow"
+      mapName={"7D With Single Dash... (Old)\nby fishtank_underflow"}
       author="fishtank_underflow"
       link="https://gamebanana.com/mods/150350"
       image={
         <img
           src={require("../../level-images/7d1do.jpg")}
           alt="7D With Single Dash... (Old)"
-          width={742}
-          height={420}
         />
       }
       description="The old version of the map is very difficult. It's mostly grandmaster with a few cracked rooms. And it's longer than 7d.

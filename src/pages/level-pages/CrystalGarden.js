@@ -12,8 +12,6 @@ function CrystalGarden(props) {
         <img
           src={require("../../level-images/crystal-garden.jpg")}
           alt="Crystal Garden"
-          width={742}
-          height={420}
         />
       }
       description='A map I have been working on for quite a while, Inspired by the Spring Collab map "Gem Garden". I dont have more time to work on it so I wanted to package the little I have made (4 screens) and release it here, there may be cheese. Difficulty is Grandmaster + 2, probably red.'
