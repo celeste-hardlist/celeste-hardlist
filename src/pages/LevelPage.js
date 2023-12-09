@@ -8,7 +8,9 @@ import CoverPage from "../components/CoverPage.js";
 function LevelPage(props) {
   const book = useRef();
   setTimeout(function () {
-    book.current.pageFlip().flipNext();
+    if (book.current != null) {
+      book.current.pageFlip().flipNext();
+    }
   }, 1000);
 
   return (
