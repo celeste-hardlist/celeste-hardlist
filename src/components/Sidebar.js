@@ -9,7 +9,7 @@ import { IconContext } from "react-icons/lib";
 
 const Nav = styled.div`
   background: #15171c;
-  height: 9vh;
+  height: 4.5rem;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -19,7 +19,7 @@ const NavIcon = styled(Link)`
   background: #15171c;
   margin-left: 2rem;
   font-size: 2rem;
-  height: 9vh;
+  height: 4.5rem;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -62,6 +62,7 @@ const Sidebar = () => {
               transition: "350ms",
               color: "#fcfefe",
               backgroundColor: "#15171c",
+              fontSize: "1.9rem",
             }}
           >
             Celeste Hard List
