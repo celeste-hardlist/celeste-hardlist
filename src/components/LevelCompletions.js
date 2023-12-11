@@ -18,18 +18,18 @@ function LevelCompletions(props) {
                             style={{
                               backgroundColor:
                                 data.type === "fc"
-                                  ? "pink"
+                                  ? "#F8C8DC"
                                   : data.type === "c"
                                   ? "cyan"
                                   : data.type === "nv"
-                                  ? "green"
+                                  ? "#2DFE54"
                                   :  data.type === "s"
                                   ? "silver"
                                   :  data.type === "s1 s2"
                                   ? "silver"
                                   :  data.type === "g"
-                                  ? "gold"
-                                  : "yellow"
+                                  ? "#F6BE00"
+                                  : "#FFE137"
                             }}
                           >
                             <td style={{ minWidth: "460px" }}>{data.name}</td>

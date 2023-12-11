@@ -22,7 +22,6 @@ export const Home = () => {
               <Link to="/three-star">
                 <LevelsPageBox
                   image="⭐⭐⭐"
-                  title="3 Star"
                   description="The hardest of the Hard List. GM+2 or harder."
                   color={`linear-gradient(to bottom right, ${minColor1} , ${maxColor1})`}
                 />
@@ -32,7 +31,6 @@ export const Home = () => {
               <Link to="/two-star">
                 <LevelsPageBox
                   image="⭐⭐"
-                  title="2 Star"
                   description="Harder than Green GM+1, up to Red GM+1."
                   color={`linear-gradient(to bottom right, ${minColor2} , ${maxColor2})`}
                 />
@@ -42,7 +40,6 @@ export const Home = () => {
               <Link to="/one-star">
                 <LevelsPageBox
                   image="⭐"
-                  title="1 Star"
                   description="At least as hard as Darkmoon Ruins, up to Green GM+1."
                   color={`linear-gradient(to bottom right, ${minColor3} , ${maxColor3})`}
                 />
