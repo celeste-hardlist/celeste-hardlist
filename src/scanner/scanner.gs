@@ -21,6 +21,7 @@ function doGet(e) {
     }
     var map = {};
     map["mapName"] = values[i][0];
+    map["count"] = values[i][1];
     m = [];
     for (var j = 3; j < values[i].length; j++) {
       if (values[i][j] != "") {
