@@ -13,7 +13,7 @@ function Haaai(props) {
         </p>
       }
       mapName="hAAAi (Full Clear) by Nuwut"
-      author="Nuwut"
+      author="nuwut"
       link="https://gamebanana.com/mods/470947"
       image={
         <img

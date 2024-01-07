@@ -42,7 +42,7 @@ function LevelCompletions(props) {
                               {data.link &&
                                 data.link.map((data) => {
                                   return (
-                                    <a href={data}>
+                                    <a href={data} target="_blank" rel="noopener noreferrer">
                                       <img
                                         src={require("../level-images/link.png")}
                                         alt="Link"

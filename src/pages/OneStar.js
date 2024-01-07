@@ -79,7 +79,7 @@ export const OneStar = () => {
                 hAAAi <span style={{ color: "#f0c231" }}>(Full Clear)</span>
               </p>
             }
-            author="Nuwut"
+            author="nuwut"
             image={
               <img src={require("../level-images/haaai.jpg")} alt="hAAAi" />
             }

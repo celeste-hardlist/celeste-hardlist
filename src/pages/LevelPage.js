@@ -73,6 +73,7 @@ function LevelPage(props) {
           showCover={true}
           maxShadowOpacity={0}
           ref={book}
+          disableFlipByClick={true}
         >
           <CoverPage text={props.name}></CoverPage>
           <BookPage text="Clears">
