@@ -8,7 +8,7 @@ const BackPage = React.forwardRef((props, ref) => {
   return <div className={"backPage"} ref={ref} data-density={"hard"}></div>;
 });
 
-function MyBook(props) {
+function UpdateBook(props) {
   return (
     <HTMLFlipBook
       width={600}
@@ -18,13 +18,10 @@ function MyBook(props) {
       maxShadowOpacity={0}
     >
       <CoverPage text={props.title}/>
-      <BookPage text={"test"} children={"Test"}></BookPage>
-      <BookPage>Page text</BookPage>
-      <BookPage>Page text</BookPage>
-      <BookPage>Page text</BookPage>
+      <BookPage>We're still working on this! Sorry for the wait</BookPage>
       <BackPage></BackPage>
     </HTMLFlipBook>
   );
 }
 
-export default MyBook;
+export default UpdateBook;

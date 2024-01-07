@@ -244,6 +244,22 @@ export const OneStar = () => {
             }
           />
         </Link>
+        <Link to="/the-white-hole">
+          <LevelBox
+            title={
+              <p>
+                The White Hole
+              </p>
+            }
+            author="ZKB"
+            image={
+              <img
+                src={require("../level-images/the-white-hole.jpg")}
+                alt="The White Hole"
+              />
+            }
+          />
+        </Link>
         <Link to="/darkmoon-ruins">
           <LevelBox
             title="Darkmoon Ruins"

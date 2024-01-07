@@ -47,6 +47,7 @@ import TheSolarExpress from "./pages/level-pages/TheSolarExpress";
 import SWAPSLUT from "./pages/level-pages/SWAPSLUT";
 import TempleOfBounceleste from "./pages/level-pages/TempleOfBounceleste";
 import VividAbyss from "./pages/level-pages/VividAbyss";
+import TheWhiteHole from "./pages/level-pages/TheWhiteHole";
 import DarkmoonRuins from "./pages/level-pages/DarkmoonRuins";
 function App() {
   return (
@@ -103,6 +104,7 @@ function App() {
           element={<TempleOfBounceleste />}
         />
         <Route path="/vivid-abyss" element={<VividAbyss />} />
+        <Route path="/the-white-hole" element={<TheWhiteHole />} />
         <Route path="/darkmoon-ruins" element={<DarkmoonRuins />} />
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>

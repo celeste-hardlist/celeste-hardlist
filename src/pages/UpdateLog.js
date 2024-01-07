@@ -1,12 +1,12 @@
 import React from "react";
-import Book from "../components/Book.js";
+import UpdateBook from "../components/UpdateBook.js";
 
 export const UpdateLog = () => {
   return (
     <div className="commonPage">
       <h1>Hardlist Monthly Update Log</h1>
       <div className="book">
-        <Book />
+        <UpdateBook title="WIP"/>
       </div>
     </div>
   );

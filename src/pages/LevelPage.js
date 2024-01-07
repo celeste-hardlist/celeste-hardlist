@@ -79,6 +79,8 @@ function LevelPage(props) {
             <table>
               <LevelCompletions mapName={props.mapName} />
             </table>
+            <p>Completions: <div style={{fontSize:"12px"}}>yeah idk why this isn't working sorry people we'll have it updated soon</div></p>
+            <p>Low Death: Will be updated!</p>
           </BookPage>
           <BookPage text="Monthly Clears">Will be updated soon!</BookPage>
         </HTMLFlipBook>
